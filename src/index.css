@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 660px;
+  margin: 20px;
+  transition: transform 0.3s;
+}
+
+.app:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #007acc;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 93%;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid #007acc;
+  border-radius: 10px;
+  font-size: 1.2em;
+  outline: none;
+  transition: border-color 0.3s;
+  resize: none;
+}
+
+textarea:focus {
+  border-color: #005b99;
+}
